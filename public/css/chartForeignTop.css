@@ -1,0 +1,128 @@
+.chartContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #f5f5f5;
+}
+
+.chartContainer > * {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.content > * {
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.content-group > * {
+  flex: 1;
+}
+
+.contentTitle {
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 4px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bg-title {
+  background: #d5def1;
+}
+
+.conFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conFlex > * {
+  flex: 1;
+  background: #d5def1;
+  margin: 5px;
+  padding: 10px;
+}
+
+.conFlex span {
+  font-weight: bold;
+}
+
+.logoChart {
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center center;
+  background-size: 256px auto;
+  opacity: 0.1;
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+.apexcharts-yaxis-label {
+  font-weight: bold !important;
+}
+
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.size9 {
+  font-size: 0.9rem;
+}
+
+.size8 {
+  font-size: 0.8rem;
+}
+
+.color-buy {
+  color: #00a37d;
+  position: relative;
+}
+
+.color-buy::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  margin-top: -4px;
+  border-width: 4px 0 4px 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent #00a37d;
+  transform: rotate(-90deg);
+}
+
+.color-sell {
+  color: #fa0011;
+  position: relative;
+}
+
+.color-sell::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  margin-top: -4px;
+  border-width: 4px 0 4px 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent #fa0011;
+  transform: rotate(90deg);
+}
