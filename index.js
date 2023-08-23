@@ -32,14 +32,14 @@ var giaTriMuaOptions = {
     bar: {
       horizontal: true,
       dataLabels: {
-        position: 'bottom',
+        position: 'top',
         textAnchor: 'start',
       },
     },
   },
   dataLabels: {
     enabled: true,
-    offsetX: 10,
+    offsetX: 40,
     style: {
       colors: ['#373D3F'],
     },
@@ -89,13 +89,13 @@ var giaTriBanOptions = {
   colors: ['#FF0000'],
   chart: { type: 'bar', height: 350 },
   plotOptions: {
-    bar: { horizontal: true, dataLabels: { position: 'top' } },
+    bar: { horizontal: true, dataLabels: { position: 'bottom' } },
   },
   dataLabels: {
     enabled: true,
-    offsetX: -10,
+    offsetX: -40,
     style: {
-      colors: ['#000'],
+      colors: ['#373D3F'],
     },
   },
   xaxis: {
@@ -145,12 +145,12 @@ var luongMuaOptions = {
   plotOptions: {
     bar: {
       horizontal: true,
-      dataLabels: { position: 'bottom', textAnchor: 'start' },
+      dataLabels: { position: 'top', textAnchor: 'start' },
     },
   },
   dataLabels: {
     enabled: true,
-    offsetX: 10,
+    offsetX: 40,
     style: {
       colors: ['#373D3F'],
     },
@@ -200,13 +200,13 @@ var luongBanOptions = {
   colors: ['#FF0000'],
   chart: { type: 'bar', height: 350 },
   plotOptions: {
-    bar: { horizontal: true, dataLabels: { position: 'top' } },
+    bar: { horizontal: true, dataLabels: { position: 'bottom' } },
   },
   dataLabels: {
     enabled: true,
-    offsetX: -10,
+    offsetX: -40,
     style: {
-      colors: ['#000'],
+      colors: ['#373D3F'],
     },
   },
   xaxis: {
