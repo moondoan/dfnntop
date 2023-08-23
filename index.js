@@ -31,10 +31,19 @@ var giaTriMuaOptions = {
   plotOptions: {
     bar: {
       horizontal: true,
-      dataLabels: { position: 'bottom', textAnchor: 'start' },
+      dataLabels: {
+        position: 'bottom',
+        textAnchor: 'start',
+      },
     },
   },
-  dataLabels: { enabled: true, offsetX: 10 },
+  dataLabels: {
+    enabled: true,
+    offsetX: 10,
+    style: {
+      colors: ['#373D3F'],
+    },
+  },
   xaxis: {
     categories: [
       'MWG',
@@ -82,7 +91,13 @@ var giaTriBanOptions = {
   plotOptions: {
     bar: { horizontal: true, dataLabels: { position: 'top' } },
   },
-  dataLabels: { enabled: true, offsetX: -10 },
+  dataLabels: {
+    enabled: true,
+    offsetX: -10,
+    style: {
+      colors: ['#000'],
+    },
+  },
   xaxis: {
     categories: [
       'VIC',
@@ -133,7 +148,13 @@ var luongMuaOptions = {
       dataLabels: { position: 'bottom', textAnchor: 'start' },
     },
   },
-  dataLabels: { enabled: true, offsetX: 10 },
+  dataLabels: {
+    enabled: true,
+    offsetX: 10,
+    style: {
+      colors: ['#373D3F'],
+    },
+  },
   xaxis: {
     categories: [
       'MWG',
@@ -181,7 +202,13 @@ var luongBanOptions = {
   plotOptions: {
     bar: { horizontal: true, dataLabels: { position: 'top' } },
   },
-  dataLabels: { enabled: true, offsetX: -10 },
+  dataLabels: {
+    enabled: true,
+    offsetX: -10,
+    style: {
+      colors: ['#000'],
+    },
+  },
   xaxis: {
     categories: [
       'VIC',
